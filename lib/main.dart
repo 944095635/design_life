@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:ds_life/pages/frame/frame_page.dart';
+import 'package:ds_life/pages/splash/splash_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -62,7 +63,7 @@ class MyApp extends StatelessWidget {
           shadowColor: Color(0xFFFD6B21),
         ),
       ),
-      home: const FramePage(),
+      home: const SplashPage(),
       builder: FlutterSmartDialog.init(
         loadingBuilder: (msg) {
           return Container(
