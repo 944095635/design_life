@@ -1,5 +1,4 @@
 import 'dart:io';
-import 'package:ds_life/pages/frame/frame_page.dart';
 import 'package:ds_life/pages/splash/splash_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
