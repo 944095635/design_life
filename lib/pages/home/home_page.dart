@@ -214,7 +214,7 @@ class HomePage extends StatelessWidget {
                       user,
                       overflow: TextOverflow.ellipsis,
                       style: TextStyle(
-                        fontSize: 16.sp,
+                        fontSize: 15.sp,
                         color: const Color(0xff232832),
                       ),
                     ),
@@ -222,14 +222,14 @@ class HomePage extends StatelessWidget {
                   6.horizontalSpace,
                   Image.asset(
                     like ? "images/home/like.webp" : "images/home/like_no.webp",
-                    width: 20.w,
-                    height: 20.w,
+                    width: 15.w,
+                    height: 15.w,
                   ),
                   3.horizontalSpace,
                   Text(
                     "2.4K",
                     style: TextStyle(
-                      fontSize: 16.sp,
+                      fontSize: 13.sp,
                       fontFamily: "Montserrat",
                       fontWeight: FontWeight.bold,
                       color: like
@@ -240,14 +240,14 @@ class HomePage extends StatelessWidget {
                   14.horizontalSpace,
                   Image.asset(
                     "images/home/talk.webp",
-                    width: 20.w,
-                    height: 20.w,
+                    width: 15.w,
+                    height: 15.w,
                   ),
                   3.horizontalSpace,
                   Text(
                     "256",
                     style: TextStyle(
-                      fontSize: 16.sp,
+                      fontSize: 13.sp,
                       fontFamily: "Montserrat",
                       fontWeight: FontWeight.bold,
                       color: const Color(0xff232832),
@@ -313,14 +313,14 @@ class HomePage extends StatelessWidget {
           Text(
             title,
             style: TextStyle(
-              fontSize: 15.sp,
+              fontSize: 13.sp,
               color: const Color(0xFF232832),
             ),
           ),
           Text(
             tips,
             style: TextStyle(
-              fontSize: 15.sp,
+              fontSize: 13.sp,
               color: const Color(0xFF787B86),
             ),
           ),
@@ -330,14 +330,14 @@ class HomePage extends StatelessWidget {
             children: [
               Image.asset(
                 like ? "images/home/like.webp" : "images/home/like_no.webp",
-                width: 20.w,
-                height: 20.w,
+                width: 15.w,
+                height: 15.w,
               ),
               3.horizontalSpace,
               Text(
                 "2.4K",
                 style: TextStyle(
-                  fontSize: 16.sp,
+                  fontSize: 13.sp,
                   fontFamily: "Montserrat",
                   fontWeight: FontWeight.bold,
                   color:

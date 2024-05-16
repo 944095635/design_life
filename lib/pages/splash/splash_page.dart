@@ -74,7 +74,7 @@ class SplashPage extends StatelessWidget {
 
   void login() async {
     await SmartDialog.showLoading(
-        displayTime: const Duration(seconds: 2), msg: "登录中..");
-    Get.to(() => const InitPage());
+        displayTime: const Duration(seconds: 1), msg: "登录中..");
+    Get.offAll(() => const InitPage());
   }
 }

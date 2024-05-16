@@ -13,13 +13,7 @@ class InitPage extends GetView<InitPageLogic> {
   Widget build(BuildContext context) {
     Get.put(InitPageLogic());
     return Scaffold(
-      appBar: AppBar(
-        leading: const Icon(
-          CupertinoIcons.back,
-        ),
-        toolbarHeight: 40,
-      ),
-      extendBodyBehindAppBar: true,
+      appBar: AppBar(),
       body: Column(
         children: [
           Expanded(
@@ -89,7 +83,11 @@ class InitPage extends GetView<InitPageLogic> {
       children: [
         Column(
           children: [
-            Image.asset("images/init/${item.id}.png"),
+            Image.asset(
+              "images/init/${item.id}.png",
+              height: 100.h,
+              fit: BoxFit.cover,
+            ),
             14.verticalSpace,
             Text(
               item.title,
